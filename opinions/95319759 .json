@@ -1,0 +1,174 @@
+[
+    {
+        "opinion_id": "17058974",
+        "author": null,
+        "recommendation": null,
+        "stars": null,
+        "purchased": null,
+        "opinion_date": "2023-01-25 11:03:51",
+        "purchase_date": "2023-01-18 08:00:14",
+        "useful": null,
+        "unuseful": null,
+        "content": null,
+        "cons": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nsterowanie muzyką"
+        ],
+        "pros": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nsterowanie muzyką"
+        ]
+    },
+    {
+        "opinion_id": "17227237",
+        "author": null,
+        "recommendation": null,
+        "stars": null,
+        "purchased": null,
+        "opinion_date": "2023-03-06 10:06:48",
+        "purchase_date": "2023-02-11 18:18:54",
+        "useful": null,
+        "unuseful": null,
+        "content": null,
+        "cons": [],
+        "pros": []
+    },
+    {
+        "opinion_id": "17181081",
+        "author": null,
+        "recommendation": null,
+        "stars": null,
+        "purchased": null,
+        "opinion_date": "2023-02-23 07:27:30",
+        "purchase_date": "2023-02-11 07:05:58",
+        "useful": null,
+        "unuseful": null,
+        "content": null,
+        "cons": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nsterowanie muzyką\nwyświetlacz"
+        ],
+        "pros": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nsterowanie muzyką\nwyświetlacz"
+        ]
+    },
+    {
+        "opinion_id": "17159967",
+        "author": null,
+        "recommendation": null,
+        "stars": null,
+        "purchased": null,
+        "opinion_date": "2023-02-17 17:14:43",
+        "purchase_date": "2023-02-01 09:52:49",
+        "useful": null,
+        "unuseful": null,
+        "content": null,
+        "cons": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nwyświetlacz"
+        ],
+        "pros": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nwyświetlacz"
+        ]
+    },
+    {
+        "opinion_id": "17306846",
+        "author": null,
+        "recommendation": null,
+        "stars": null,
+        "purchased": null,
+        "opinion_date": "2023-03-23 07:45:17",
+        "purchase_date": "2023-03-03 11:22:23",
+        "useful": null,
+        "unuseful": null,
+        "content": null,
+        "cons": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nsterowanie muzyką\nwyświetlacz"
+        ],
+        "pros": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nsterowanie muzyką\nwyświetlacz"
+        ]
+    },
+    {
+        "opinion_id": "17250180",
+        "author": null,
+        "recommendation": null,
+        "stars": null,
+        "purchased": null,
+        "opinion_date": "2023-03-10 11:25:21",
+        "purchase_date": "2023-03-07 21:42:25",
+        "useful": null,
+        "unuseful": null,
+        "content": null,
+        "cons": [],
+        "pros": []
+    },
+    {
+        "opinion_id": "17148662",
+        "author": null,
+        "recommendation": null,
+        "stars": null,
+        "purchased": null,
+        "opinion_date": "2023-02-15 16:14:26",
+        "purchase_date": "2023-02-10 15:02:28",
+        "useful": null,
+        "unuseful": null,
+        "content": null,
+        "cons": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nsterowanie muzyką\ntryb ciemny\nwyświetlacz"
+        ],
+        "pros": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nsterowanie muzyką\ntryb ciemny\nwyświetlacz"
+        ]
+    },
+    {
+        "opinion_id": "17311295",
+        "author": null,
+        "recommendation": null,
+        "stars": null,
+        "purchased": null,
+        "opinion_date": "2023-03-23 20:58:22",
+        "purchase_date": "2023-03-13 22:54:09",
+        "useful": null,
+        "unuseful": null,
+        "content": null,
+        "cons": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\ntryb ciemny\nwyświetlacz"
+        ],
+        "pros": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\ntryb ciemny\nwyświetlacz"
+        ]
+    },
+    {
+        "opinion_id": "17058715",
+        "author": null,
+        "recommendation": null,
+        "stars": null,
+        "purchased": null,
+        "opinion_date": "2023-01-25 10:37:20",
+        "purchase_date": "2023-01-18 11:21:29",
+        "useful": null,
+        "unuseful": null,
+        "content": null,
+        "cons": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nwyświetlacz"
+        ],
+        "pros": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nwyświetlacz"
+        ]
+    },
+    {
+        "opinion_id": "17060577",
+        "author": null,
+        "recommendation": null,
+        "stars": null,
+        "purchased": null,
+        "opinion_date": "2023-01-25 15:21:54",
+        "purchase_date": "2023-01-17 23:57:07",
+        "useful": null,
+        "unuseful": null,
+        "content": null,
+        "cons": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nsterowanie muzyką\ntryb ciemny\nwyświetlacz"
+        ],
+        "pros": [
+            "Zalety\nczas pracy na baterii\nfunkcjonalność\nsterowanie muzyką\ntryb ciemny\nwyświetlacz"
+        ]
+    }
+]

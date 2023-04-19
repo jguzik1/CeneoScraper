@@ -14,7 +14,7 @@ def get_element(ancestor, selector = None, attribute = None, return_list = False
     except (AttributeError,TypeError):
         return None
 selectors = {
-        "opinion_id": [ None, "data-entry-id"],
+        "opinion_id": [None, "data-entry-id"],
         "author": ["span.user-post__author-name"],
         "recommendation": ["span.user-post__author-recomendation > em"],
         "stars": ["span.user-post__score-count"],
@@ -24,23 +24,27 @@ selectors = {
         "useful": ["button.vote-yes > span"],
         "unuseful": ["button.vote-no > span"],
         "content": ["div.user-post__text"],
-        "cons": ["div.review-feature__col:has(> div.review-feature__item", None, True],
-        "pros": ["div.review-feature__col:has(> div.review-feature__item", None, True]
+        "cons": ["div.review-feature__col:has(> div.review-feature__item)", None, True],
+        "pros": ["div.review-feature__col:has(> div.review-feature__item)", None, True]
     }
-# product_code = input("Podaj kod produktu: ")
-product_code = "95319759"
-# url = "https://www.ceneo.pl/" + product_code + "#tab=reviews"
-# url = "https://www.ceneo.pl/{}#tab=reviews".format(product_code)
+product_code = input("Podaj kod produktu: ")
 url = f"https://www.ceneo.pl/{product_code}#tab=reviews"
-response = requests.get(url)
-page_dom = BeautifulSoup(response.text, "html.parser")
-opinions = page_dom.select("div.js_product-review")
 all_opinions = []
-for opinion in opinions:
-    single_opinion ={}
-    for key, value in selectors.items():
-        single_opinion[key] = get_element(opinion, *value)
-    all_opinions.append(single_opinion)
+while(url):
+    print(url)
+    response = requests.get(url)
+    page_dom = BeautifulSoup(response.text, "html.parser")
+    opinions = page_dom.select("div.js_product-review")
+    for opinion in opinions:
+        single_opinion ={}
+        for key, value in selectors.items():
+            single_opinion[key] = get_element(opinion, *value)
+        all_opinions.append(single_opinion)
+    try:
+        url = "https://www.ceneo.pl/" + get_element(page_dom,"a.pagination__next","href")
+    except TypeError:
+        url = None
+
 with open(f"./opinions/{product_code}.json", "w", encoding= "UTF-8") as jf:
     json.dump(all_opinions,jf, indent = 4, ensure_ascii = False)
-print(json.dumps(all_opinions, indent = 4, ensure_ascii = False))
+
