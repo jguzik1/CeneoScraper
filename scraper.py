@@ -1,6 +1,7 @@
 import requests
 import json
 from bs4 import BeautifulSoup
+import os
 
 def get_element(ancestor, selector = None, attribute = None, return_list = False):
     try:
@@ -10,7 +11,7 @@ def get_element(ancestor, selector = None, attribute = None, return_list = False
             return ancestor[attribute]
         if attribute:
             return ancestor.select_one(selector)[attribute].strip()
-        return ancestor.opinion.select_one(selector).text.strip()
+        return ancestor.select_one(selector).text.strip()
     except (AttributeError,TypeError):
         return None
 selectors = {
@@ -24,8 +25,8 @@ selectors = {
         "useful": ["button.vote-yes > span"],
         "unuseful": ["button.vote-no > span"],
         "content": ["div.user-post__text"],
-        "cons": ["div.review-feature__col:has(> div.review-feature__item)", None, True],
-        "pros": ["div.review-feature__col:has(> div.review-feature__item)", None, True]
+        "cons": ["div.review-feature__title--negatives ~ div.review-feature__item", None, True],
+        "pros": ["div.review-feature__title--positives ~ div.review-feature__item", None, True]
     }
 product_code = input("Podaj kod produktu: ")
 url = f"https://www.ceneo.pl/{product_code}#tab=reviews"
@@ -44,6 +45,9 @@ while(url):
         url = "https://www.ceneo.pl/" + get_element(page_dom,"a.pagination__next","href")
     except TypeError:
         url = None
+
+if not os.path.exists("./opinions"):
+    os.mkdir("./opinions")
 
 with open(f"./opinions/{product_code}.json", "w", encoding= "UTF-8") as jf:
     json.dump(all_opinions,jf, indent = 4, ensure_ascii = False)

@@ -1,0 +1,124 @@
+[
+    {
+        "opinion_id": "17123879",
+        "author": "d...7",
+        "recommendation": "Polecam",
+        "stars": "5/5",
+        "purchased": "Opinia potwierdzona zakupem",
+        "opinion_date": "2023-02-09 10:48:34",
+        "purchase_date": "2023-01-23 14:00:01",
+        "useful": "0",
+        "unuseful": "0",
+        "content": "Rewelacja!\nBardzo ciekawy do zbudowania ze względu na liczbę klocków jak i zastosowane techniki. Wiele dobrze oddanych szczegółów.",
+        "cons": [],
+        "pros": [
+            "kolorystyka",
+            "trwałość",
+            "wygląd",
+            "zabawa"
+        ]
+    },
+    {
+        "opinion_id": "16423253",
+        "author": "p...4",
+        "recommendation": "Polecam",
+        "stars": "5/5",
+        "purchased": "Opinia potwierdzona zakupem",
+        "opinion_date": "2022-08-16 11:04:46",
+        "purchase_date": "2022-08-01 16:22:36",
+        "useful": "0",
+        "unuseful": "0",
+        "content": "Świetny zestaw. Wrzystko zgodne z opisem. Polecam. Niska cena.",
+        "cons": [],
+        "pros": [
+            "kolorystyka",
+            "trwałość",
+            "wygląd",
+            "zabawa"
+        ]
+    },
+    {
+        "opinion_id": "16947827",
+        "author": "p...a",
+        "recommendation": "Polecam",
+        "stars": "5/5",
+        "purchased": "Opinia potwierdzona zakupem",
+        "opinion_date": "2022-12-29 13:33:16",
+        "purchase_date": "2022-12-19 08:56:31",
+        "useful": "0",
+        "unuseful": "0",
+        "content": "Świetny zestaw, idealne odwzorowanie modelu auta, polecam.",
+        "cons": [],
+        "pros": [
+            "kolorystyka",
+            "trwałość",
+            "wygląd",
+            "zabawa"
+        ]
+    },
+    {
+        "opinion_id": "17399729",
+        "author": "b...i",
+        "recommendation": "Polecam",
+        "stars": "4,5/5",
+        "purchased": "Opinia potwierdzona zakupem",
+        "opinion_date": "2023-04-13 23:36:53",
+        "purchase_date": "2022-12-13 11:49:37",
+        "useful": "0",
+        "unuseful": "0",
+        "content": "zabawa dla chłopaków na dłużej",
+        "cons": [],
+        "pros": []
+    },
+    {
+        "opinion_id": "16931586",
+        "author": "m...k",
+        "recommendation": "Polecam",
+        "stars": "5/5",
+        "purchased": "Opinia potwierdzona zakupem",
+        "opinion_date": "2022-12-27 09:13:05",
+        "purchase_date": "2022-12-19 13:14:23",
+        "useful": "0",
+        "unuseful": "0",
+        "content": "Suuper!!",
+        "cons": [],
+        "pros": [
+            "kolorystyka",
+            "trwałość",
+            "wygląd",
+            "zabawa"
+        ]
+    },
+    {
+        "opinion_id": "17403082",
+        "author": "Karol",
+        "recommendation": "Polecam",
+        "stars": "4,5/5",
+        "purchased": "Opinia potwierdzona zakupem",
+        "opinion_date": "2023-04-14 18:10:19",
+        "purchase_date": "2023-03-18 09:25:14",
+        "useful": "0",
+        "unuseful": "0",
+        "content": "Fajne",
+        "cons": [],
+        "pros": [
+            "kolorystyka",
+            "trwałość",
+            "wygląd"
+        ]
+    },
+    {
+        "opinion_id": "17423788",
+        "author": "w...n",
+        "recommendation": "Polecam",
+        "stars": "5/5",
+        "purchased": "Opinia potwierdzona zakupem",
+        "opinion_date": "2023-04-20 09:18:37",
+        "purchase_date": "2023-03-31 17:40:29",
+        "useful": "0",
+        "unuseful": "0",
+        "content": "Supi",
+        "cons": [],
+        "pros": []
+    }
+]
